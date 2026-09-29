@@ -1,4 +1,4 @@
-# Kaizen Karatê-Dō
+# JKS Paraná
 
 Site estático da academia de karatê (HTML, CSS e JavaScript puro).
 
