@@ -80,7 +80,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; line-height: 1.3; 
 }
 
 .logo { display: flex; align-items: center; gap: .75rem; text-decoration: none; }
-.logo-marca { width: 44px; height: 44px; color: var(--sumi); flex-shrink: 0; }
+.logo-marca { width: 44px; height: 44px; object-fit: contain; flex-shrink: 0; }
 .logo-texto { display: flex; flex-direction: column; line-height: 1.2; }
 .logo-texto strong { font-family: var(--serif); font-size: 1.25rem; }
 .logo-texto small { font-size: .75rem; color: var(--cinza); }
@@ -382,6 +382,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; line-height: 1.3; 
   flex-wrap: wrap;
 }
 .rodape p { margin: 0 0 .6rem; }
+.rodape-brasao { width: 72px; height: 72px; object-fit: contain; background: #fff; border-radius: 12px; padding: 6px; margin-bottom: .75rem; }
 .rodape-nome { font-family: var(--serif); font-size: 1.4rem; color: #fff; }
 .rodape nav { display: flex; flex-direction: column; gap: .4rem; }
 .rodape nav a { text-decoration: none; }
